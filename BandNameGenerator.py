@@ -3,7 +3,7 @@ import random
 def generate_band_name():
     print("🎸 Welcome to the Band Name Generator! Let's create a unique name for your band. 🎶\n")
 
-    # User inputs with validation
+    # User inputs
     user_city = input("What city did you grow up in?\n").strip()
     while not user_city:
         user_city = input("Please enter a valid city name:\n").strip()
